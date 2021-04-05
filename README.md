@@ -52,31 +52,31 @@ Being experimented with KNN, LogisticRegression and Random forest classifier, I 
 
 I also created a pipeline, which I used to evaluate the performance before Standardizing and after Standardizing.
 
-# Model Performance
+# Model's Performance
 
 Model used: Logistic Regression
 
 ### Without Standardizing
-Method | Total number of features | Accuracy | Sensitivity | Specificity
------- | ------------------------ | -------- | ----------- | -----------
-Pearson Correlation | 189 | 85 | 83.75 | 86
-Chi Squared | 120 | 83 | 83.75 | 83
-Anova test | 325 | 84 | 83.75 | 84
-Mutual Gain | 180 | 87 | 87.5 | 86
-Forward Feature Selection | 180 | 86 | 76.25 | 93
-Backward Feature Elimination | 180 | 91 | 91.25 | 91
-L1 Regularisation | 43 | 91 | 88.75 | 92
-Random Forest Selector | 170 | 85 | 80 | 89
+Method | Total number of features | Accuracy | Standard deviation of Accuracy | Sensitivity | Specificity
+------ | ------------------------ | -------- | ------------------------------ | ----------- | -----------
+Pearson Correlation | 189 | 85 | 0.125 | 83.75 | 86
+Chi Squared | 120 | 83.3 | 0.115 | 83.75 | 83
+Anova test | 325 | 83.8 | 0.125 | 83.75 | 84
+Mutual Gain | 180 | 86.66 | 0.137 | 87.5 | 86
+Forward Feature Selection | 180 | 85.5 | 0.138 | 76.25 | 93
+Backward Feature Elimination | 180 | 91.1 | 0.073 | 91.25 | 91
+L1 Regularisation | 43 | 90 | 0.081 | 88.75 | 92
+Random Forest Selector | 170 | 87.2 | 0.098 | 86.25 | 88
  
 ### After Standardizing
 Method | Total number of features | Accuracy 
 ------ | ------------------------ | -------- 
 Pearson Correlation | 189 | 87.2
-Mutual Gain | 180 | 92
+Mutual Gain | 180 | 92.2
 Forward Feature Selection | 180 | 95 
-Backward Feature Elimination | 180 | 91.1
+Backward Feature Elimination | 180 | 92.2
 L1 Regularisation | 43 | 90
-Random Forest Selector | 170 | 92.7
+Random Forest Selector | 170 | 93.3
 
 # References
 
