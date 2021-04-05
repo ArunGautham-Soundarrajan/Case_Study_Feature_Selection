@@ -57,8 +57,8 @@ I also created a pipeline, which I used to evaluate the performance before Stand
 Model used: Logistic Regression
 
 ### Without Standardizing
-Method | Total number of features | Accuracy | Recall | Specificity
------- | ------------------------ | -------- | ------ | -----------
+Method | Total number of features | Accuracy | Sensitivity | Specificity
+------ | ------------------------ | -------- | ----------- | -----------
 Pearson Correlation | 189 | 85 | 83.75 | 86
 Chi Squared | 120 | 83 | 83.75 | 83
 Anova test | 325 | 84 | 83.75 | 84
