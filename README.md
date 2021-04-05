@@ -65,8 +65,8 @@ Anova test | 325 | 84 | 83.75 | 84
 Mutual Gain | 180 | 87 | 87.5 | 86
 Forward Feature Selection | 180 | 86 | 76.25 | 93
 Backward Feature Elimination | 180 | 91 | 91.25 | 91
-L1 Regularisation | - | 91 | 88.75 | 92
-Random Forest Selector | - | 81 | 77.5 | 83
+L1 Regularisation | 43 | 91 | 88.75 | 92
+Random Forest Selector | 170 | 85 | 80 | 89
  
 ### After Standardizing
 Method | Total number of features | Accuracy 
@@ -75,8 +75,8 @@ Pearson Correlation | 189 | 87.2
 Mutual Gain | 180 | 92
 Forward Feature Selection | 180 | 95 
 Backward Feature Elimination | 180 | 91.1
-L1 Regularisation | - | 90
-Random Forest Selector | - | 91.6
+L1 Regularisation | 43 | 90
+Random Forest Selector | 170 | 92.7
 
 # References
 
